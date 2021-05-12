@@ -1,0 +1,303 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    scroll-behavior: smooth;
+}
+
+.clear {
+    clear: both;
+}
+
+#hr1 {
+    opacity: 0.6;
+}
+
+header {
+    width: 1100px;
+    margin: 0px auto;
+}
+
+#first-section .section-0 {
+    float: right;
+    margin-right: 135px;
+    font-weight: 700;
+}
+
+#first-section .section-1 .namefpt {
+    float: left;
+    margin-top: 20px;
+    font-size: 36px;
+    line-height: 1.1;
+    font-weight: 500;
+}
+
+#first-section .section-1 .sec {
+    margin-top: 20px;
+    display: inline-block;
+    float: right;
+    margin-right: -291px;
+}
+
+#first-section .section-1 .sec div {
+        float: right;
+        text-align: center;
+        line-height: 40px;
+}
+
+#first-section .sec img {
+    width: 120px;
+    height: 40px;
+    margin-left: 50px;
+}
+
+#second-section .second-section-1 {
+    height: 41px;
+    background-color: #f5f5f5;
+    margin-top: 25px;
+}
+
+#second-section .second-section-1 button {
+    float: right;
+    margin: 0 7px;
+    background-color: #5cb85c;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    border: none;
+    border-radius: 2px;
+    font-size: 75%;
+    padding:  3px 3px;
+}
+
+#main {
+    /* width: 1170px; */
+    width: 79%;
+    margin: 0 auto;
+    margin-top: 55px;
+}
+
+#news {
+    /* border: 2px solid #ccc; */
+    float: left;
+    /* width: 33%; */
+    width: 34.23%;
+    /* margin-right: 10px; */
+    position: relative;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+    margin-bottom: 50px;
+}
+
+#news .input {
+    margin-left: 20px; 
+    margin-top: 25px;
+    width: 248px;
+    height: 22px;
+    border-radius: 4px;
+    border: 1px solid #aaaaaa;
+}
+
+#news .btn-news {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid #aaaaaa;
+    border-radius: 4px;
+    padding: 1px 0px;
+}
+
+#news .notification-1 {
+    color: #4169E1;
+    font-size: 13px;
+    font-weight: bold;
+    opacity: 0.9;
+    line-height: 12px;
+    line-height: 1.4;
+}
+
+#news ul li {
+    margin-top: 6px;
+}
+
+#news .time-notification {
+    font-size: 12px;
+    color: #737373;
+}
+
+#letter-new {
+    background-color: #0f4086;
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    top: -22px;
+    border-radius: 5px 5px 0 0;
+    width: 150px;
+    text-align: center;
+    font-size: 24px;
+    padding: 4px 1px;
+    width: 160px;
+    margin-left: -2px;
+}
+
+#letter-Academic-Information {
+    position: absolute;
+    background-color: #ef8d01;
+    font-size: 24px;
+    color: #fff;
+    border-radius: 5px 5px 0 0;
+    width: 262px;
+    line-height: 34px;
+    top: -22px;
+    margin-left: -2px;
+    text-align: center;
+}
+
+li {
+    margin-left: 57px;
+}
+
+li a,a {
+    text-decoration: none;
+    color: #000;
+}
+
+#img-pth {
+    /* width: 370px; */
+    width: 95%;
+    margin-left: 2%;
+    /* border-left: 1px solid #ccc;
+    border-right: 1px   solid #ccc; */
+    display: block;
+    background: url('./PTH-01.jpg') top center  /cover no-repeat;
+    height: 650px;
+    margin-top: 30px;
+    /* float: left; */
+    margin-bottom: 20px;
+}
+
+#Academic-Information {
+    /* border: 2px solid #ccc; */
+    float: right;
+    width: 60.03%;
+    /* width: 63%; */
+    position: relative;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+
+#Academic-Information-1,
+#Feedback,
+#Others,
+#Courses-on-FPTU-Coursera {
+    float: left;
+    width: 50%;
+    /* width: 54%; */
+    /* border: 2px solid #ccc; */
+    margin-bottom: 10px;
+}
+
+#Academic-Information-1 .header,
+#Academic-Information-2 .header {
+    text-align: center;
+    font-weight: 500;
+    margin-top: 16px;
+    margin-bottom: 4px;
+    /* margin-left: 40px; */
+    font-size: 18px;
+    
+}
+
+/* #Academic-Information-1 ul li a  */
+li a{
+    color: #337ab7;
+    line-height: 2;
+}
+
+#Academic-Information-2,
+#Reports,
+#Regulations,
+#Campus-Dormitory {
+    float: right;
+    width: 50%;
+    /* width: 46%; */
+    /* border: 2px solid #ccc; */
+}
+
+#hr {
+    width: 95%;
+    margin: 0 auto;
+    opacity: 0.2;
+}
+
+#Feedback {
+    
+}
+
+#Feedback .header,
+#Reports .header,
+#Others .header,
+#Regulations .header,
+#Courses-on-FPTU-Coursera .header{
+    text-align: center;
+    font-weight: 500;
+    margin-top: 16px;
+    margin-bottom: 4px;
+    /* margin-left: 40px; */
+    font-size: 18px;
+}
+
+#Campus-Dormitory {
+    box-shadow: 0 1px 2px #ccc;
+}
+
+#ktx {
+    
+}
+
+#ktx .background-ktx{
+    position: relative;
+    height: 38.4px;
+    background-color: #f5f5f5;
+}
+
+#ktx a{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    color: #337ab7;  
+}
+
+#footer, #sub-footer{
+    width: 668px;
+    margin: 0 auto;
+}
+
+#footer span {
+    font-weight: bold;
+    color: rgb(34, 34, 34);
+}
+
+b {
+    color: #23527c;
+}
+
+#sub-footer .info {
+    margin-left: 25%;
+}
+
+#sub-footer {
+    margin-bottom: 10px;
+}
+
+.last {
+    margin-bottom: 15px;
+    display: block;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
